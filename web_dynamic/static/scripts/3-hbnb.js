@@ -2,7 +2,7 @@ $(document).ready(function () {
   $.ajax({
     type: "POST",
     contentType: "application/json",
-    url: "http://localhost:5002/api/v1/places_search",
+    url: "http://localhost:5004/api/v1/places_search",
     data: JSON.stringify({}),
     success: function (data) {
       $.each(data, function (index, place) {

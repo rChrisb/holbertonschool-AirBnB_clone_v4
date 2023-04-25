@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <script type="text/javascript" src="{{url_for('static', filename='scripts/3-hbnb.js')}}"></script>
     <link
       rel="stylesheet"
       type="text/css"
@@ -31,7 +30,7 @@
     <link rel="icon" href="../static/images/icon.png?{{cache_id}}" />
     <title>HBnB</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="../static/scripts/2-hbnb.js?{{cache_id}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='scripts/3-hbnb.js')}}"></script>
   </head>
   <body>
     <header class="header-container">
